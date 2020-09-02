@@ -1,0 +1,18 @@
+{
+  "name": "coc-bot",
+  "version": "1.0.0",
+  "description": "A discord bot that deletes a sent message in the public Code-of-Conduct-violations and resends it in a mods only coc-logs channel ",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord.js"
+  ],
+  "author": "Arnav Sirigere",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0"
+  }
+}
