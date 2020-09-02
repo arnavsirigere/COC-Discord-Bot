@@ -3,6 +3,9 @@ const Discord = require('discord.js');
 const { MessageEmbed } = require('discord.js');
 const client = new Discord.Client();
 
+const keepAlive = require('./server');
+keepAlive();
+
 client.on('ready', () => console.log('Discord Bot is starting!'));
 
 client.on('message', async (message) => {
